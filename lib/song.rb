@@ -48,7 +48,6 @@ class Song
    song.artist_name = file_name.split("-").first
    s_name = file_name.split(/[-]\s|[.]/)[1]
    song.name = s_name
-   song.save
  end
 
  def create_from_filename(file_name)
